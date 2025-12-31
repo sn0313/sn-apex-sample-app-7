@@ -39,6 +39,7 @@ export_type not in ('USER','ORDS_SCHEMA'),
 
 -- Export APEX application only:
 -- export_type = 'APEX_APPLICATION',
+application_id in (100)
 
 -- Exclude certain database object types:
 -- object_type not in ('CONTEXT', 'SCHEDULE'),   -- trailing comma is optional      
