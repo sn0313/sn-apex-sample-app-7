@@ -112,7 +112,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_value_01=>'apex-sample-app'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>6
-,p_version_scn=>45909927347236
+,p_version_scn=>45910010678451
 ,p_print_server_type=>'NATIVE'
 ,p_file_storage=>'DB'
 ,p_is_pwa=>'Y'
@@ -6995,6 +6995,7 @@ wwv_flow_imp_page.create_page_plug(
 '<h1>Welcome to apex-sample-app!</h1>',
 '<p>At this About Page, you can find any information about this application here.</p><br>',
 '<h2>Stay Tuned!</h2>',
+'<p>Bye.</p>',
 ''))
 ,p_plug_query_num_rows=>15
 ,p_attributes=>wwv_flow_t_plugin_attributes(wwv_flow_t_varchar2(
@@ -7269,4 +7270,4 @@ prompt  ...done
 
 
 
--- sqlcl_snapshot {"hash":"e4c664f6dab9e516a73fa33347cee088b64f6c51","type":"APEX_APPLICATIONS","name":"f100","schemaName":"SN_DEV_7","sxml":""}
+-- sqlcl_snapshot {"hash":"96751ee35ef964f79b2c5eda2e295cff2d5e14e6","type":"APEX_APPLICATIONS","name":"f100","schemaName":"SN_DEV_7","sxml":""}

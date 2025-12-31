@@ -55,6 +55,7 @@ regions:
       <h1>Welcome to apex-sample-app!</h1>
       <p>At this About Page, you can find any information about this application here.</p><br>
       <h2>Stay Tuned!</h2>
+      <p>Bye.</p>
       
 
   layout: 
